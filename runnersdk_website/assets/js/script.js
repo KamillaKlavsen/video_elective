@@ -3,7 +3,7 @@
 
 // Setting options in a json object
 let options = {
-    "controls": true, 
+    "controls": false, 
     "autoplay": true, 
     "preload": "auto", 
     "muted": true
