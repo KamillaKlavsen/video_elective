@@ -208,32 +208,26 @@ const hotspots = [
         //circle - 3 
         active: true,
         videoId: "video1",
-        markIn: 45,
-        markOut: 50,
+        markIn: 4,
+        markOut: 1.00,
         sizeX:40,
         sizeY: 40,
-        posX: 32,
+        posX: 12,
         posY: 6,
         ui: {
             type: "box",
-            title: "Hoved",
+            text: "Find et løbehold nær dig",
+            title: "tilmeld",
             style: `
             left: 52%; 
             top: 6%;
-            background-color: rgba(0,0,0,.1);
-             border-radius: 100%;
-             width: 9%;
-             height: 16%;
-             border: 2px dotted white;`,
+            background-color: rgba(0,0,0,.6)`,
         },
+
         hotspot: {
-            type: "function",
-            func: () => {
-                document.querySelector('#popUpBox2').classList.remove('hidden');
-                console.log(document.querySelector('#popUpBox2'));
-                videojs('video1').pause();
-                // alert('Head trauma detected, administering morphine');
-            }
+            type: "link",
+            url: "https://runnersdk.dk/",
+            target: "_blank",
         }
 
     },
@@ -388,6 +382,4 @@ const hotspots = [
             }
         }
     },
-
-
-*/
+]*/

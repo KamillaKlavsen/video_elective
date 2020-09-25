@@ -5,8 +5,8 @@
 }
 
 body {
-    background-image: url('../images/baggrund.jpg');
-    background-size: 200%;
+    background: linear-gradient(rgb(65, 53, 74), rgb(99, 91, 106), rgb(135, 132, 140), rgb(172, 176, 175), rgb(211, 221, 212));
+   
 }
 
 header { 
@@ -32,12 +32,12 @@ main {
     margin-left: 10vw; 
 }
 
-video {
-    box-shadow: 10px 10px 5px 0 rgba(0,0,0,0.5); 
+/* video {
+    /* box-shadow: rgba(0,0,0,0.5);  */
     /* width: 80vw;
     height: 50vw; */
-    margin-top: -4.5vw;
-}
+    /* margin-top: -4.5vw; 
+} 
 /* generic stuff */
 
 .responsive-video {

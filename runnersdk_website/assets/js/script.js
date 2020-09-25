@@ -3,7 +3,7 @@
 
 // Setting options in a json object
 let options = {
-    "controls": false, 
+    "controls": true, 
     "autoplay": true, 
     "preload": "auto", 
     "muted": true
@@ -44,5 +44,6 @@ popUpContent2.addEventListener('click', () => {
     document.querySelector('#popUpBox2').classList.add('hidden');
 });
 document.querySelector('#video1').appendChild(popUpContent2);
+
 
 
