@@ -143,7 +143,7 @@ let video = {
 // data for hotspots
 const hotspots = [
     {
-        //circle - 1
+        //hjernen
         active: true,
         videoId: "video1",
         markIn: 1,
@@ -154,7 +154,7 @@ const hotspots = [
         posY: 6,
         ui: {
             type: "box",
-            title: "Hoved",
+            title: "Hjerne",
             style: `left: 52%; 
             top: 6%;
             background-color: rgba(0,0,0,.1);
@@ -175,7 +175,7 @@ const hotspots = [
 
     },
     {
-        //circle - 2 
+        //Ballerne 
         active: true,
         videoId: "video1",
         markIn: 23,
@@ -186,13 +186,14 @@ const hotspots = [
         posY: 6,
         ui: {
             type: "box",
-            title: "Hoved",
+            title: "Ballerne",
             style: `left: 42%; 
             top: 26%;
              border-radius: 100%;
              width: 9%;
              height: 16%;
-             border: 2px dotted white;`,
+             border: 2px dotted white;
+            background-color: rgba(0,0,0,.1);`,
         },
         hotspot: {
             type: "function",
@@ -204,32 +205,59 @@ const hotspots = [
         }
 
     },
+    
     {
-        //circle - 3 
+        //Skelettet
         active: true,
         videoId: "video1",
-        markIn: 4,
-        markOut: 1.00,
+        markIn: 13,
+        markOut: 20,
         sizeX:40,
         sizeY: 40,
         posX: 12,
         posY: 6,
         ui: {
             type: "box",
-            text: "Find et løbehold nær dig",
             title: "tilmeld",
-            style: `
-            left: 52%; 
-            top: 6%;
-            background-color: rgba(0,0,0,.6)`,
+            style: `left: 42%; 
+            top: 26%;
+             border-radius: 100%;
+             width: 9%;
+             height: 16%;
+             border: 2px dotted white;
+            background-color: rgba(0,0,0,.1);`,
         },
 
         hotspot: {
-            type: "link",
-            url: "https://runnersdk.dk/",
-            target: "_blank",
+            type: "function",
+            func: () => {
+                document.querySelector('#popUpBox3').classList.remove('hidden');
+                console.log(document.querySelector('#popUpBox3'));
+                videojs('video1').pause();
+            }
         }
 
+    },
+    {
+        //button
+        active: true,
+        videoId: "video1",
+        markIn: 5,
+        markOut: 10,
+        sizeX: 50,
+        sizeY: 50,
+        posX: 0,
+        posY: 50,
+        ui: {
+            type: "box",
+            text: "Find et løbehold nær dig",    // optional: add a title attribute with the text
+            style: "border: 2px solid green; background-color: rgba(0,255,0,.5)"
+        },
+        hotspot: {
+            type: "link",
+            url: "https://runnersdk.dk/",
+            target: "_blank"
+        }
     },
   
     {
