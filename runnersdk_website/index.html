@@ -1,115 +1,126 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8">
     <title>RUNNERSDK</title>
     <!-- <link rel="icon" type="image/png" href="assets/favicons/favicon-32x32.png" sizes="32x32" />
-    <link rel="icon" type="image/png" href="assets/favicons/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="assets/favicons/favicon-16x16.png" sizes="16x16" /> -->
     <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" rel="stylesheet">
 
     <link href="https://vjs.zencdn.net/7.8.4/video-js.css" rel="stylesheet" />
     <script src="https://vjs.zencdn.net/7.8.4/video.js" defer></script>
 
-    <link href="assets/css/frappe.css" rel="stylesheet" type="text/css"> -->
+    <!-- <link href="assets/css/frappe.css" rel="stylesheet" type="text/css">  -->
     <link href="https://fonts.googleapis.com/css2?family=Hanalei&display=swap" rel="stylesheet">
-    <link href="assets/style.css" rel="stylesheet" type="text/css">
-    <script src="assets/script.js" defer></script>
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/video-hotspots.css" rel="stylesheet" type="text/css">
+    <script src="assets/js/video-hotspots.js" defer></script>
+    <script src="assets/js/script.js" defer></script>
 </head>
 
 <body>
     <header>
-        <a href="index.html" ><img class="logo" src="assets/logo.png"></a> 
+        <a href="index.html"><img class="logo" src="assets/images/logo.png"></a>
         <h1>RUNNERS DK</h1>
     </header>
 
     <main>
-        <video id="video" 
-        class="video-js responsive-video ratio-16-9" 
-        controls 
-        preload="auto"
-        width="840" height="480" 
-        poster="assets/poster.jpg">
-        <source src="assets/video/Big_Buck_Bunny.mp4" type="video/mp4" />
-        <source src="assets/video/Big_Buck_Bunny.webm" type="video/webm" />
-        <p class="vjs-no-js">
-            To view this video please enable JavaScript, and consider upgrading to a
-            web browser that
-            <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
-        </p>
-    </video>
+        <video id="video1" class="video-js responsive-video ratio-16-9" controls preload="auto" width="840" height="480">
+            <source src="assets/video/Big_Buck_Bunny.mp4" type="video/mp4" />
+            <source src="assets/video/Big_Buck_Bunny.webm" type="video/webm" />
+            <p class="vjs-no-js">
+                To view this video please enable JavaScript, and consider upgrading to a
+                web browser that
+                <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+            </p>
+        </video>
     </main>
 
-    <article> <div class="infobox">
-        <img src="assets/anatomi.jpg" alt="runner" class="anatomy">
-        <div class="text">
-        <h3>LØB OVER TID</h3>
-        <p>Når du begynder at løbe, sker der nogle
-            fysiologiske tilpasninger i din krop: 
-            Hjertet bliver stærkere og kan pumpe en 
-            større mængde blod ud pr. slag. Hjerte-
-            frekvensen (pulsen) ved et givent 
-            arbejde falder, ligesom hvilepulsen også 
-            falder. Muskulaturen forbedres med 
-            flere kapillærer og en større 
-            enzym-aktivitet. Disse fysiologiske 
-            tilpasninger sker hurtigt, og som 
-            begynder vil du allerede efter ca. 
-            4-5 uger opleve, at din form er blevet 
-            bedre. Du oplever, at pulsen falder, og at 
-            det ikke er så fysisk hårdt at gennemføre
-            en opgave som tidligere. 
-            <br><br>
-        
-            <b>Ændringer tager tid</b> <br>
-            Disse tilpasninger vil ske langsomt, og specielt senevæ¬vets tilpasninger kan tage meget lang tid. Det er derfor vigtigt, at du som begynder starter meget langsomt op. 
-            Tilpasningerne i kroppen foregår ved, at der først sker en nedbryd¬ning af vævet, hvorefter kroppen fjerner det nedbrudte væv og danner nyt og stærkere væv. 
-            Den proces kan tage lang tid. 
-            <br><br>
-            <b>Du kan blive øm </b> <br>
-            De muskulære tilpasninger kan betyde, at du bliver øm en eller to dage efter træningen. Det er vigtigt at lytte til krop¬pen og mærke efter, hvornår den er klar til at løbe igen, så du ikke får skader. 
-            Bedre løbeøkonomi 
-            Løbetræning giver dig også en bedre løbeøkonomi. Det betyder, at du får en lav iltoptagelse ved en given løbehastighed. Musklerne har altså ikke brug for så meget ilt som ved en dårlig løbeøkonomi. 
-            Løbeøkonomien har indflydelse på den aerobe præstationsevne og er afhængig af en række faktorer, bl.a. styrken, bevægeligheden og smidigheden i de involverede muskler og led. Disse faktorer forbedres ved træning. 
-            Løb er en af de træningsformer, der forbedrer hjerte-kredsløbet mest. <br><br>
-        <i>Kilde: https://vorespuls.dk/loeb/artikler/start-paa-loeb-hvad-sker-der-i-din-krop </i></p>
-    </div></div>
+    <article>
+        <div class="infobox">
+            <img src="assets/images/anatomi.jpg" alt="runner" class="anatomy">
+            <div class="text">
+                <h3>LØB OVER TID</h3>
+                <p>Når du begynder at løbe, sker der nogle
+                    fysiologiske tilpasninger i din krop:
+                    Hjertet bliver stærkere og kan pumpe en
+                    større mængde blod ud pr. slag. Hjerte-
+                    frekvensen (pulsen) ved et givent
+                    arbejde falder, ligesom hvilepulsen også
+                    falder. Muskulaturen forbedres med
+                    flere kapillærer og en større
+                    enzym-aktivitet. Disse fysiologiske
+                    tilpasninger sker hurtigt, og som
+                    begynder vil du allerede efter ca.
+                    4-5 uger opleve, at din form er blevet
+                    bedre. Du oplever, at pulsen falder, og at
+                    det ikke er så fysisk hårdt at gennemføre
+                    en opgave som tidligere.
+                    <br><br>
+
+                    <b>Ændringer tager tid</b> <br>
+                    Disse tilpasninger vil ske langsomt, og specielt senevæ¬vets tilpasninger kan tage meget lang tid.
+                    Det er derfor vigtigt, at du som begynder starter meget langsomt op.
+                    Tilpasningerne i kroppen foregår ved, at der først sker en nedbryd¬ning af vævet, hvorefter kroppen
+                    fjerner det nedbrudte væv og danner nyt og stærkere væv.
+                    Den proces kan tage lang tid.
+                    <br><br>
+                    <b>Du kan blive øm </b> <br>
+                    De muskulære tilpasninger kan betyde, at du bliver øm en eller to dage efter træningen. Det er
+                    vigtigt at lytte til krop¬pen og mærke efter, hvornår den er klar til at løbe igen, så du ikke får
+                    skader.
+                    Bedre løbeøkonomi
+                    Løbetræning giver dig også en bedre løbeøkonomi. Det betyder, at du får en lav iltoptagelse ved en
+                    given løbehastighed. Musklerne har altså ikke brug for så meget ilt som ved en dårlig løbeøkonomi.
+                    Løbeøkonomien har indflydelse på den aerobe præstationsevne og er afhængig af en række faktorer,
+                    bl.a. styrken, bevægeligheden og smidigheden i de involverede muskler og led. Disse faktorer
+                    forbedres ved træning.
+                    Løb er en af de træningsformer, der forbedrer hjerte-kredsløbet mest. <br><br>
+                    <i>Kilde: https://vorespuls.dk/loeb/artikler/start-paa-loeb-hvad-sker-der-i-din-krop </i></p>
+            </div>
+        </div>
     </article>
 
-<article>
-    <div class="container">
-        <h2>Tilmeld dig med det samme!</h2>
-        <br>
-        <form action="action_page.php"></form>
-      
-          <label for="fname">Fornavn</label>
-          <input type="text" id="fname" name="Fornavn" placeholder="Dit navn..">
-      <br>
-          <label for="lname">Efternavn</label>
-          <input type="text" id="lname" name="Efternavn" placeholder="Dit efternavn..">
-      <br>
-      <label for="number">Mobil</label>
-      <input type="number" id="mobil" name="mobil" placeholder="Dit telefonnummer..">
-      <br>
-          <label for="city">By</label>
-          <select id="city" name="city">
-            <option value="Aalborg">Aalborg</option>
-            <option value="København">København</option>
-            <option value="Århus">Århus</option>
-            <option value="Odense">Odense</option>
-          </select>
-      <br>
-          <label for="andet">Andet:</label>
-          <br>
-          <textarea id="andet" name="andet" placeholder="Yderligere kommentar..." style="height:200px"></textarea>
-      <br>
-          <input class="submit" type="submit" value="Tilmeld">
-      
-        </form>
-      </div>
-    </article>
+    <article>
+        <div class="container">
+            <h2>Tilmeld dig med det samme!</h2>
+            <br>
+            <form action="action_page.php">
 
-    <footer> 
-       <p>© 2020 RUNNERS DK</p>
-    </footer>
+                <label for="fname">Fornavn</label>
+                <input type="text" id="fname" name="Fornavn" placeholder="Dit navn..">
+                <br>
+                <label for="lname">Efternavn</label>
+                <input type="text" id="lname" name="Efternavn" placeholder="Dit efternavn..">
+                <br>
+                <label for="number">Email</label>
+                <input type="text" id="mail" name="mail" placeholder="Din email..">
+                <br>
+                <label for="number">Mobil</label>
+                <input type="number" id="mobil" name="mobil" placeholder="Dit telefonnummer..">
+                <br>
+                <label for="city">By</label>
+                <select id="city" name="city">
+                    <option value="Aalborg">Aalborg</option>
+                    <option value="København">København</option>
+                    <option value="Århus">Århus</option>
+                    <option value="Odense">Odense</option>
+                </select>
+                <br>
+                <label for="andet">Andet:</label>
+                <br>
+                <textarea id="andet" name="andet" placeholder="Yderligere kommentar..." style="height:200px"></textarea>
+                <br>
+                <input class="submit" type="submit" value="Tilmeld">
+
+            </form>
+        </div>
+    </article>
 </body>
+<footer>
+    <p>© 2020 RUNNERS DK</p>
+</footer>
+
+</html>

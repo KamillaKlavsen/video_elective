@@ -1,0 +1,26 @@
+.videoHotspotsParent {
+    position: relative;
+}
+
+div > .hotspot {
+    box-sizing: border-box;
+    position: absolute;
+    z-index: 1;
+    cursor: pointer;
+}
+
+div > .hotspot.image {
+    /*background-size: cover;*/
+    background-position: center;
+}
+
+div > .hotspot.box {
+    width: 10%;
+    height: 20%;
+    border-radius: 100%;
+    background-color: rgba(0,0,0,.1);
+}
+
+video:focus {
+    outline: none;
+}
