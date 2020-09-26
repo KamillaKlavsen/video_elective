@@ -1,5 +1,4 @@
-// JS by Dan Høegh
-// UCN MMD 2020
+
 
 // A framework for showing time-encoded hotspots on multiple videos.
 // Assumes either video.js or a parent <div> for the video that has the same dimensions as the video.
@@ -210,8 +209,8 @@ const hotspots = [
         //Skelettet
         active: true,
         videoId: "video1",
-        markIn: 140,
-        markOut: 145,
+        markIn: 40,
+        markOut: 45,
         sizeX:40,
         sizeY: 40,
         posX: 12,
