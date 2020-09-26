@@ -210,8 +210,8 @@ const hotspots = [
         //Skelettet
         active: true,
         videoId: "video1",
-        markIn: 13,
-        markOut: 20,
+        markIn: 140,
+        markOut: 145,
         sizeX:40,
         sizeY: 40,
         posX: 12,
@@ -233,6 +233,102 @@ const hotspots = [
             func: () => {
                 document.querySelector('#popUpBox3').classList.remove('hidden');
                 console.log(document.querySelector('#popUpBox3'));
+                videojs('video1').pause();
+            }
+        }
+
+    },
+    {
+        //Mave
+        active: true,
+        videoId: "video1",
+        markIn: 13,
+        markOut: 20,
+        sizeX:40,
+        sizeY: 40,
+        posX: 12,
+        posY: 6,
+        ui: {
+            type: "box",
+            title: "tilmeld",
+            style: `left: 42%; 
+            top: 26%;
+             border-radius: 100%;
+             width: 9%;
+             height: 16%;
+             border: 2px dotted white;
+            background-color: rgba(0,0,0,.1);`,
+        },
+
+        hotspot: {
+            type: "function",
+            func: () => {
+                document.querySelector('#popUpBox4').classList.remove('hidden');
+                console.log(document.querySelector('#popUpBox4'));
+                videojs('video1').pause();
+            }
+        }
+
+    },
+    {
+        //Immunsystem
+        active: true,
+        videoId: "video1",
+        markIn: 13,
+        markOut: 20,
+        sizeX:40,
+        sizeY: 40,
+        posX: 12,
+        posY: 6,
+        ui: {
+            type: "box",
+            title: "tilmeld",
+            style: `left: 42%; 
+            top: 26%;
+             border-radius: 100%;
+             width: 9%;
+             height: 16%;
+             border: 2px dotted white;
+            background-color: rgba(0,0,0,.1);`,
+        },
+
+        hotspot: {
+            type: "function",
+            func: () => {
+                document.querySelector('#popUpBox5').classList.remove('hidden');
+                console.log(document.querySelector('#popUpBox5'));
+                videojs('video1').pause();
+            }
+        }
+
+    },
+    {
+        //Hjertet
+        active: true,
+        videoId: "video1",
+        markIn: 13,
+        markOut: 20,
+        sizeX:40,
+        sizeY: 40,
+        posX: 12,
+        posY: 6,
+        ui: {
+            type: "box",
+            title: "tilmeld",
+            style: `left: 42%; 
+            top: 26%;
+             border-radius: 100%;
+             width: 9%;
+             height: 16%;
+             border: 2px dotted white;
+            background-color: rgba(0,0,0,.1);`,
+        },
+
+        hotspot: {
+            type: "function",
+            func: () => {
+                document.querySelector('#popUpBox6').classList.remove('hidden');
+                console.log(document.querySelector('#popUpBox6'));
                 videojs('video1').pause();
             }
         }

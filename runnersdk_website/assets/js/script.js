@@ -6,7 +6,7 @@ let options = {
     "controls": true, 
     "autoplay": true, 
     "preload": "auto", 
-    "muted": false
+    "muted": true
 };
 
 // try the different json-objects here
