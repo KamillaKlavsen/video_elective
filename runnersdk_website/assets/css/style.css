@@ -21,7 +21,7 @@ header {
 
 h1  {
     font-family: 'Hanalei', cursive;
-    color: red;
+    color: #bc7077;
     font-size: 8vw;
     font-weight: normal;
     margin-top: -12vw;
@@ -103,7 +103,7 @@ opacity: 80%;
 h2 {
     font-family: Tahoma, Verdana, sans-serif;
     margin-bottom: -2vw;
-    color: red;
+    color: #fe674d;
 }
 
 input {
@@ -137,4 +137,10 @@ footer {
 .popUpBox.hidden{
 	display: none;
 }
+
+/*link styling*/
+a{
+    text-decoration: none;
+}
+
 

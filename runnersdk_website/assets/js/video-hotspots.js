@@ -244,14 +244,15 @@ const hotspots = [
         videoId: "video1",
         markIn: 5,
         markOut: 10,
-        sizeX: 50,
-        sizeY: 50,
-        posX: 0,
-        posY: 50,
+        sizeX: 40,
+        sizeY: 15,
+        posX: 30,
+        posY: 40,
         ui: {
             type: "box",
             text: "Find et løbehold nær dig",    // optional: add a title attribute with the text
-            style: "border: 2px solid green; background-color: rgba(0,255,0,.5)"
+            style: `background-color:#fe674d; color: white; font-size: 30px; padding: 3%; text-align: center; font-family:Tahoma, Verdana, sans-serif;
+                    border-radius: 12px;`,
         },
         hotspot: {
             type: "link",
