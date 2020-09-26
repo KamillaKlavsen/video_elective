@@ -238,12 +238,13 @@ const hotspots = [
         }
 
     },
+    
     {
         //button
         active: true,
         videoId: "video1",
-        markIn: 5,
-        markOut: 10,
+        markIn: 56,
+        markOut: 59,
         sizeX: 40,
         sizeY: 15,
         posX: 30,

@@ -15,6 +15,17 @@ videojs('video1', options);
 // videojs('video3', options);
 // videojs('video4', options);
 
+//setting the volume of the video
+let vid = document.getElementById("video1");
+  
+function setHalfVolume() { 
+  vid.volume = 0.5;
+} 
+
+
+
+
+
 video.hotspots.init();
 
 const video1 = videojs('video1');
@@ -60,4 +71,40 @@ popUpContent3.addEventListener('click', () => {
     document.querySelector('#popUpBox3').classList.add('hidden');
 });
 document.querySelector('#video1').appendChild(popUpContent3);
+
+//MAVE
+
+const popUpContent4 = document.createElement('div');
+popUpContent4.className = "popUpBox hidden";
+popUpContent4.id = "popUpBox3";
+popUpContent4.innerHTML = "MAVE: <br> Det skadelige bugfedt forbrændes, hvorved du undgår farlig betændelse i bl.a. blodkarrene, som kan føre til åreforkalkning og blodtryksforhøjelse!";
+popUpContent4.addEventListener('click', () => {
+    video1.play();
+    document.querySelector('#popUpBox3').classList.add('hidden');
+});
+document.querySelector('#video1').appendChild(popUpContent4);
+
+//IMMUNSYSTEM
+
+const popUpContent5 = document.createElement('div');
+popUpContent5.className = "popUpBox hidden";
+popUpContent5.id = "popUpBox3";
+popUpContent5.innerHTML = "IMMUNSYSTEM: <br> Immunsystemet styrkes, så det kan udrydde kræftceller på et tidligt tidspunkt.";
+popUpContent5.addEventListener('click', () => {
+    video1.play();
+    document.querySelector('#popUpBox3').classList.add('hidden');
+});
+document.querySelector('#video1').appendChild(popUpContent5);
+
+//HJERTET
+
+const popUpContent6 = document.createElement('div');
+popUpContent6.className = "popUpBox hidden";
+popUpContent6.id = "popUpBox3";
+popUpContent6.innerHTML = "HJERTET: <br> Løbere har det bedre som ældre og halverer risikoen for tidlig død! Løb ved lav eller moderat intensitet i sammenlagt 1 – 2,5 timer om ugen forlænger livet med gennemsnitligt 5,6 år for kvinder og 6,2 år for mænd.";
+popUpContent6.addEventListener('click', () => {
+    video1.play();
+    document.querySelector('#popUpBox3').classList.add('hidden');
+});
+document.querySelector('#video1').appendChild(popUpContent6);
 
