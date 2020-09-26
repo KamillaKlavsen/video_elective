@@ -8,6 +8,7 @@ let options = {
     "preload": "auto", 
     "muted": false
 };
+console.log('i am running');
 
 // try the different json-objects here
 videojs('video1', options);
