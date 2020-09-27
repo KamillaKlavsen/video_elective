@@ -6,7 +6,7 @@ let options = {
     "controls": true, 
     "autoplay": true, 
     "preload": "auto", 
-    "muted": true
+    "muted": false
 };
 
 // try the different json-objects here
@@ -76,11 +76,11 @@ document.querySelector('#video1').appendChild(popUpContent3);
 
 const popUpContent4 = document.createElement('div');
 popUpContent4.className = "popUpBox hidden";
-popUpContent4.id = "popUpBox3";
+popUpContent4.id = "popUpBox4";
 popUpContent4.innerHTML = "MAVE: <br> Det skadelige bugfedt forbrændes, hvorved du undgår farlig betændelse i bl.a. blodkarrene, som kan føre til åreforkalkning og blodtryksforhøjelse!";
 popUpContent4.addEventListener('click', () => {
     video1.play();
-    document.querySelector('#popUpBox3').classList.add('hidden');
+    document.querySelector('#popUpBox4').classList.add('hidden');
 });
 document.querySelector('#video1').appendChild(popUpContent4);
 
@@ -88,11 +88,11 @@ document.querySelector('#video1').appendChild(popUpContent4);
 
 const popUpContent5 = document.createElement('div');
 popUpContent5.className = "popUpBox hidden";
-popUpContent5.id = "popUpBox3";
+popUpContent5.id = "popUpBox5";
 popUpContent5.innerHTML = "IMMUNSYSTEM: <br> Immunsystemet styrkes, så det kan udrydde kræftceller på et tidligt tidspunkt.";
 popUpContent5.addEventListener('click', () => {
     video1.play();
-    document.querySelector('#popUpBox3').classList.add('hidden');
+    document.querySelector('#popUpBox5').classList.add('hidden');
 });
 document.querySelector('#video1').appendChild(popUpContent5);
 
@@ -100,11 +100,11 @@ document.querySelector('#video1').appendChild(popUpContent5);
 
 const popUpContent6 = document.createElement('div');
 popUpContent6.className = "popUpBox hidden";
-popUpContent6.id = "popUpBox3";
+popUpContent6.id = "popUpBox6";
 popUpContent6.innerHTML = "HJERTET: <br> Løbere har det bedre som ældre og halverer risikoen for tidlig død! Løb ved lav eller moderat intensitet i sammenlagt 1 – 2,5 timer om ugen forlænger livet med gennemsnitligt 5,6 år for kvinder og 6,2 år for mænd.";
 popUpContent6.addEventListener('click', () => {
     video1.play();
-    document.querySelector('#popUpBox3').classList.add('hidden');
+    document.querySelector('#popUpBox6').classList.add('hidden');
 });
 document.querySelector('#video1').appendChild(popUpContent6);
 

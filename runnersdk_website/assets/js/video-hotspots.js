@@ -145,8 +145,8 @@ const hotspots = [
         //hjernen
         active: true,
         videoId: "video1",
-        markIn: 1,
-        markOut: 8,
+        markIn: 110,
+        markOut: 114,
         sizeX:40,
         sizeY: 40,
         posX: 32,
@@ -154,13 +154,7 @@ const hotspots = [
         ui: {
             type: "box",
             title: "Hjerne",
-            style: `left: 52%; 
-            top: 6%;
-            background-color: rgba(0,0,0,.1);
-             border-radius: 100%;
-             width: 9%;
-             height: 16%;
-             border: 2px dotted white;`,
+            style: "left: 39%; top: 36%; background-color: rgba(0,0,0,.1); border-radius: 100%; width: 9%; height: 16%; border: 2px dotted white;",
         },
         hotspot: {
             type: "function",
@@ -177,8 +171,8 @@ const hotspots = [
         //Ballerne 
         active: true,
         videoId: "video1",
-        markIn: 23,
-        markOut: 26,
+        markIn: 110,
+        markOut: 114,
         sizeX:40,
         sizeY: 40,
         posX: 32,
@@ -186,8 +180,8 @@ const hotspots = [
         ui: {
             type: "box",
             title: "Ballerne",
-            style: `left: 42%; 
-            top: 26%;
+            style: `left: 31%; 
+            top: 51%;
              border-radius: 100%;
              width: 9%;
              height: 16%;
@@ -209,8 +203,8 @@ const hotspots = [
         //Skelettet
         active: true,
         videoId: "video1",
-        markIn: 40,
-        markOut: 45,
+        markIn: 102,
+        markOut: 110,
         sizeX:40,
         sizeY: 40,
         posX: 12,
@@ -218,8 +212,8 @@ const hotspots = [
         ui: {
             type: "box",
             title: "tilmeld",
-            style: `left: 42%; 
-            top: 26%;
+            style: `left: 46%; 
+            top: 36%;
              border-radius: 100%;
              width: 9%;
              height: 16%;
@@ -241,17 +235,17 @@ const hotspots = [
         //Mave
         active: true,
         videoId: "video1",
-        markIn: 13,
-        markOut: 20,
+        markIn: 110,
+        markOut: 114,
         sizeX:40,
         sizeY: 40,
         posX: 12,
         posY: 6,
         ui: {
             type: "box",
-            title: "tilmeld",
-            style: `left: 42%; 
-            top: 26%;
+            title: "Maven",
+            style: `left: 17%; 
+            top: 44%;
              border-radius: 100%;
              width: 9%;
              height: 16%;
@@ -273,8 +267,8 @@ const hotspots = [
         //Immunsystem
         active: true,
         videoId: "video1",
-        markIn: 13,
-        markOut: 20,
+        markIn: 114,
+        markOut: 119,
         sizeX:40,
         sizeY: 40,
         posX: 12,
@@ -305,17 +299,17 @@ const hotspots = [
         //Hjertet
         active: true,
         videoId: "video1",
-        markIn: 13,
-        markOut: 20,
+        markIn: 119,
+        markOut: 125,
         sizeX:40,
         sizeY: 40,
         posX: 12,
         posY: 6,
         ui: {
             type: "box",
-            title: "tilmeld",
-            style: `left: 42%; 
-            top: 26%;
+            title: "Hjertet",
+            style: `left: 49%; 
+            top: 36%;
              border-radius: 100%;
              width: 9%;
              height: 16%;
@@ -338,12 +332,12 @@ const hotspots = [
         //button
         active: true,
         videoId: "video1",
-        markIn: 56,
-        markOut: 59,
-        sizeX: 40,
+        markIn: 127,
+        markOut: 132,
+        sizeX: 60,
         sizeY: 15,
-        posX: 30,
-        posY: 40,
+        posX: 20,
+        posY: 60,
         ui: {
             type: "box",
             text: "Find et løbehold nær dig",    // optional: add a title attribute with the text
